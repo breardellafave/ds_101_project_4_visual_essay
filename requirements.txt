@@ -1,0 +1,21 @@
+# ==============================================================================
+# DS 101 Project 4 Visual Essay - Python Package Requirements
+# ==============================================================================
+# This file lists all Python packages required for the project.
+#
+# To install these packages:
+#   pip install -r requirements.txt
+# ==============================================================================
+
+# Data Analysis
+pandas>=2.0.0
+
+# Interactive Visualizations and Maps
+plotly>=5.0.0
+
+# Jupyter Notebook Support
+notebook>=6.5.0
+nbformat>=5.7.0
+
+# Interactive Widgets for Notebooks
+ipywidgets>=8.0.0
