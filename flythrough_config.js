@@ -39,7 +39,7 @@ var config = {
             // CHAPTER 1: Overview of both locations
             id: 'intro',
             title: 'Reddit Sentiment Analysis: Two College Towns',
-            description: 'Exploring how students discuss their campuses on Reddit - comparing JMU in Harrisonburg, VA and UNC in Chapel Hill, NC.',
+            description: 'Exploring how students discuss their campuses on Reddit - comparing JMU in Harrisonburg, VA and Virginia Tech in Blacksburg, VA.',
             image: './images/quad.jpg',
             duration: 3000,
             
@@ -74,9 +74,9 @@ var config = {
         {
             // CHAPTER 3: JMU Location 1
             id: 'jmu-location-1',
-            title: 'JMU Location 1: [Name Here]',
+            title: 'JMU Location 1: The Quad',
             description: 'Add your description here. Include sentiment analysis findings, post count, and key themes.',
-            image: './images/quad.jpg',
+            image: 'images/chapter_6_jmu_Quad.png',
             duration: 2000,
             
             // Camera position
@@ -102,9 +102,9 @@ var config = {
         {
             // CHAPTER 4: JMU Location 2
             id: 'jmu-location-2',
-            title: 'JMU Location 2: [Name Here]',
+            title: 'JMU Location 2: Harrisonburg',
             description: 'Add your description here.',
-            image: './images/arboretum.jpg',
+            image: 'images/chapter_7_jmu_Harrisonburg.jpeg',
             duration: 2000,
             
             camera: {
@@ -128,9 +128,9 @@ var config = {
         {
             // CHAPTER 5: JMU Location 3
             id: 'jmu-location-3',
-            title: 'JMU Location 3: [Name Here]',
+            title: 'JMU Location 3: The Village',
             description: 'Add your description here.',
-            image: './images/art_gallery.jpg',
+            image: 'images/chapter_8_jmu_Village.jpeg',
             duration: 2000,
             
             camera: {
@@ -150,9 +150,58 @@ var config = {
             
             showData: 'individual'
         },
-        
         {
-            // CHAPTER 6: UNC Campus Overview
+            // CHAPTER 6: JMU Location 4
+            id: 'jmu-location-4',
+            title: 'JMU Location 4: D Hall',
+            description: 'Add your description here.',
+            image: 'images/chapter_9_jmu_D-hall.jpeg',
+            duration: 2000,
+            
+            camera: {
+                latitude: 38.4390,
+                longitude: -78.8620,
+                zoom: 17
+            },
+            
+            location: {
+                name: 'JMU Location 3',
+                latitude: 38.4390,
+                longitude: -78.8620,
+                postCount: 100,
+                robertaScore: 0.55,
+                isJMU: true
+            },
+            
+            showData: 'individual'
+        },
+        {
+            // CHAPTER 7: JMU Location 5
+            id: 'jmu-location-5',
+            title: 'JMU Location 5: Urgies',
+            description: 'Add your description here.',
+            image: 'images/chapter_10_jmu_urgies.jpeg',
+            duration: 2000,
+            
+            camera: {
+                latitude: 38.4390,
+                longitude: -78.8620,
+                zoom: 17
+            },
+            
+            location: {
+                name: 'JMU Location 3',
+                latitude: 38.4390,
+                longitude: -78.8620,
+                postCount: 100,
+                robertaScore: 0.55,
+                isJMU: true
+            },
+            
+            showData: 'individual'
+        },
+        {
+            // CHAPTER 7: UNC Campus Overview
             id: 'unc-campus',
             title: 'UNC Campus Overview',
             description: 'University of North Carolina at Chapel Hill. Three key locations emerge from student discussions.',
@@ -169,11 +218,11 @@ var config = {
         },
         
         {
-            // CHAPTER 7: UNC Location 1
-            id: 'unc-location-1',
-            title: 'UNC Location 1: [Name Here]',
+            // CHAPTER 8: Virginia Tech Location 1
+            id: 'virginiatech-location-1',
+            title: 'Virginia Tech Location 1: Blacksburg',
             description: 'Add your description here.',
-            image: './images/d_hall.jpg',
+            image: 'images/chapter_1_vt_blacksburg.jpeg',
             duration: 2000,
             
             camera: {
@@ -183,7 +232,7 @@ var config = {
             },
             
             location: {
-                name: 'UNC Location 1',
+                name: 'Virginia Tech Location 1',
                 latitude: 35.9050,
                 longitude: -79.0470,
                 postCount: 60,
@@ -195,11 +244,11 @@ var config = {
         },
         
         {
-            // CHAPTER 8: UNC Location 2
-            id: 'unc-location-2',
-            title: 'UNC Location 2: [Name Here]',
+            // CHAPTER 9: Virginia Tech Location 2
+            id: 'virginiatech-location-2',
+            title: 'Virginia Tech Location 2: Lane Stadium',
             description: 'Add your description here.',
-            image: './images/arboretum.jpg',
+            image: 'images/chapter_2_vt_LaneStadium.jpeg',
             duration: 2000,
             
             camera: {
@@ -209,7 +258,7 @@ var config = {
             },
             
             location: {
-                name: 'UNC Location 2',
+                name: 'Virginia Tech 2',
                 latitude: 35.9060,
                 longitude: -79.0480,
                 postCount: 85,
@@ -221,11 +270,11 @@ var config = {
         },
         
         {
-            // CHAPTER 9: UNC Location 3
-            id: 'unc-location-3',
-            title: 'UNC Location 3: [Name Here]',
+            // CHAPTER 10: Virginia Tech Location 3
+            id: 'virginiatech-location-3',
+            title: 'Virginia Tech Location 3: Squires Student Center',
             description: 'Add your description here.',
-            image: './images/art_gallery.jpg',
+            image: 'images/chapter_3_vt_Squires_student_center.jpeg',
             duration: 2000,
             
             camera: {
@@ -235,7 +284,32 @@ var config = {
             },
             
             location: {
-                name: 'UNC Location 3',
+                name: 'Virginia Tech 3',
+                latitude: 35.9070,
+                longitude: -79.0490,
+                postCount: 95,
+                robertaScore: 0.40,
+                isJMU: false
+            },
+            
+            showData: 'individual'
+        },
+         {
+            // CHAPTER 11: Virginia Tech Location 4
+            id: 'virginiatech-location-4',
+            title: 'Virginia Tech Location 4: The Old Hokie House',
+            description: 'Add your description here.',
+            image: 'images/chapter_4_vt_hokie_house.jpeg',
+            duration: 2000,
+            
+            camera: {
+                latitude: 35.9070,
+                longitude: -79.0490,
+                zoom: 17
+            },
+            
+            location: {
+                name: 'Virginia Tech 4',
                 latitude: 35.9070,
                 longitude: -79.0490,
                 postCount: 95,
@@ -246,7 +320,32 @@ var config = {
             showData: 'individual'
         },
         {
-            // CHAPTER 10: Final zoom out
+            // CHAPTER 12: Virginia Tech Location 5
+            id: 'virginiatech-location-5',
+            title: 'Virginia Tech Location 5: Main Street',
+            description: 'Add your description here.',
+            image: 'images/chapter_5_vt_main_street.jpeg',
+            duration: 2000,
+            
+            camera: {
+                latitude: 35.9070,
+                longitude: -79.0490,
+                zoom: 17
+            },
+            
+            location: {
+                name: 'Virginia Tech 5',
+                latitude: 35.9070,
+                longitude: -79.0490,
+                postCount: 95,
+                robertaScore: 0.40,
+                isJMU: false
+            },
+            
+            showData: 'individual'
+        },
+        {
+            // CHAPTER 13: Final zoom out
             id: 'conclusion',
             title: 'Conclusion: Comparing Campus Sentiment',
             description: 'Our analysis reveals both similarities and differences in how students experience and discuss these two universities.',
