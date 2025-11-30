@@ -75,8 +75,8 @@ var config = {
             // CHAPTER 3: JMU Location 1
             id: 'jmu-location-1',
             title: 'JMU Location 1: The Quad',
-            description: 'There are 11 comments about the JMU Quad, and all are positive comments. Some comments talk about the amount of time they've spent admiring the Quad, while others talk about the last Game Day that was at JMU, and when they got to see the Jonas Brothers. The comments about the Quad were all good, and many people on Reddit seem to enjoy the Quad.',
-            image: 'images/chapter_6_jmu_Quad.png',
+            description: 'There are 11 comments about the JMU Quad, and all are positive comments. Some comments talk about the amount of time they have spend admiring the quad. )thers talk about the last Game Day that was at JMU, and when they got to see the Jonas Brothers. The comments about the Quad were all good, and many people on Reddit seem to enjoy the Quad.'
+            image: 'images/chapter_6_jmu_Quad.jpeg',
             duration: 2000,
             
             // Camera position
