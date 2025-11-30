@@ -247,7 +247,7 @@ var config = {
             // CHAPTER 9: Virginia Tech Location 2
             id: 'virginiatech-location-2',
             title: 'Virginia Tech Location 2: Lane Stadium',
-            description: 'There were 13 posts about and mentioning Lane Stadium, with mostly positive comments. Commenters mostly wrote about how Lane Stadium should be filled to the brim every single game and how they will miss Lane Stadium when they're gone. Some commenters wrote about how lively the stadium gets.',
+            description: 'There were 13 posts about and mentioning Lane Stadium, with mostly positive comments. Commenters mostly wrote about how Lane Stadium should be filled to the brim every single game and how they will miss Lane Stadium when they are gone. Commenters also noted how lively the stadium is on gamedays.',
             image: 'images/chapter_2_vt_LaneStadium.jpeg',
             duration: 2000,
             
