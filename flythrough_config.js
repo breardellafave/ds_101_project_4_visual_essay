@@ -77,13 +77,13 @@ var config = {
             title: 'JMU Location 1: The Quad',
             description: 'There are 11 comments about the JMU Quad, and all are positive comments. Some comments talk about the amount of time they have spend admiring the quad. )thers talk about the last Game Day that was at JMU, and when they got to see the Jonas Brothers. The comments about the Quad were all good, and many people on Reddit seem to enjoy the Quad.'
             image: 'images/quad.jpg',
-            duration: 2000,
+            duration: 3000,
             
             // Camera position
             camera: {
-                latitude: 38.4347,           // Replace with coordinates from CSV
-                longitude: -78.8690,
-                zoom: 17
+                latitude: 38.4384,           // Replace with coordinates from CSV
+                longitude: -78.8737,
+                zoom: 16
             },
             
             // Location data (creates the marker on map)
@@ -105,12 +105,12 @@ var config = {
             title: 'JMU Location 2: Harrisonburg',
             description: 'There are 189 posts for Harrisonburg, with the comments being mixed. A lot of these comments come from COVID times, and the users are not very happy with JMU and Harrisonburg’s laws during COVID. There were also lots of posts about how pretty the sunsets are and random little niche things about Harrisonburg and the townies that live here as well.',
             image: 'images/chapter_7_jmu_Harrisonburg.jpeg',
-            duration: 2000,
+            duration: 3000,
             
             camera: {
-                latitude: 38.4335,
-                longitude: -78.8715,
-                zoom: 17
+                latitude: 38.4468,
+                longitude: -78.8642,
+                zoom: 13
             },
             
             location: {
@@ -131,11 +131,11 @@ var config = {
             title: 'JMU Location 3: The Village',
             description: 'There are 16 posts for the Village Dorms, and many of them are positive. They all talked about how social the Village Dorms are, how many people you meet living there, and the fact that there is no AC in the Village. Something else that kept being brought up was the fact that they might demolish them and make new dorms.',
             image: 'images/chapter_8_jmu_Village.jpeg',
-            duration: 2000,
+            duration: 3000,
             
             camera: {
-                latitude: 38.4390,
-                longitude: -78.8620,
+                latitude: 38.4362,
+                longitude: -78.8691,
                 zoom: 17
             },
             
@@ -156,11 +156,11 @@ var config = {
             title: 'JMU Location 4: D Hall',
             description: 'AThere are 22 posts talking about JMU D Hall, and most of them are very neutral. Lots of the posts talk about what food places used to be at the bottom of D Hall, what the old D Hall was like, and how the dining hall is just so mediocre.',
             image: 'images/chapter_9_jmu_D-hall.jpeg',
-            duration: 2000,
+            duration: 3000,
             
             camera: {
-                latitude: 38.4390,
-                longitude: -78.8620,
+                latitude: 38.4374,
+                longitude: -78.8722,
                 zoom: 17
             },
             
@@ -181,11 +181,11 @@ var config = {
             title: 'JMU Location 5: Urgies',
             description: 'There are 2 comments talking about Urgies. Both comments are very positive and say this is a very good restaurant. The post recommends this restaurant as a good restaurant in Harrisonburg, VA. Our analysis tells us that Virginia Tech students use Blacksburg and are closer to the Blacksburg community than the James Madison students are to the Harrisonburg community.',
             image: 'images/chapter_10_jmu_urgies.jpeg',
-            duration: 2000,
+            duration: 3000,
             
             camera: {
-                latitude: 38.4390,
-                longitude: -78.8620,
+                latitude: 38.4479,
+                longitude: -78.8657,
                 zoom: 17
             },
             
@@ -226,9 +226,9 @@ var config = {
             duration: 2000,
             
             camera: {
-                latitude: 35.9050,
-                longitude: -79.0470,
-                zoom: 17
+                latitude: 37.2297,
+                longitude: -80.4146,
+                zoom: 13
             },
             
             location: {
@@ -252,9 +252,9 @@ var config = {
             duration: 2000,
             
             camera: {
-                latitude: 35.9060,
-                longitude: -79.0480,
-                zoom: 17
+                latitude: 37.2201,
+                longitude: -80.4180,
+                zoom: 16
             },
             
             location: {
@@ -275,11 +275,11 @@ var config = {
             title: 'Virginia Tech Location 3: Squires Student Center',
             description: 'There are 8 comments talking about Squires Student Center. There are not a lot of comments, but they are all negative comments. There are multiple comments about the police showing up and taunting the kids or making them evacuate. There is also mention of rioting at Squires Student Center',
             image: 'images/chapter_3_vt_Squires_student_center.jpeg',
-            duration: 2000,
+            duration: 3000,
             
             camera: {
-                latitude: 35.9070,
-                longitude: -79.0490,
+                latitude: 37.2292,
+                longitude: -80.4179,
                 zoom: 17
             },
             
@@ -303,8 +303,8 @@ var config = {
             duration: 2000,
             
             camera: {
-                latitude: 35.9070,
-                longitude: -79.0490,
+                latitude: 41.7551,
+                longitude: -70.4978,
                 zoom: 17
             },
             
@@ -328,8 +328,8 @@ var config = {
             duration: 2000,
             
             camera: {
-                latitude: 35.9070,
-                longitude: -79.0490,
+                latitude: 37.2490,
+                longitude: -80.4130,
                 zoom: 17
             },
             
