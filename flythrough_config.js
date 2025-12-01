@@ -76,7 +76,7 @@ var config = {
             id: 'jmu-location-1',
             title: 'JMU Location 1: The Quad',
             description: 'There are 11 comments about the JMU Quad, and all are positive comments. Some comments talk about the amount of time they have spend admiring the quad. )thers talk about the last Game Day that was at JMU, and when they got to see the Jonas Brothers. The comments about the Quad were all good, and many people on Reddit seem to enjoy the Quad.'
-            image: 'images/chapter_6_jmu_Quad.jpeg',
+            image: 'images/quad.jpg',
             duration: 2000,
             
             // Camera position
@@ -89,10 +89,10 @@ var config = {
             // Location data (creates the marker on map)
             location: {
                 name: 'JMU Location 1',      // Replace with location name from CSV
-                latitude: 38.4347,           // Must match camera coordinates
-                longitude: -78.8690,
-                postCount: 50,               // Look up in your whitepaper visualizations
-                robertaScore: 0.25,          // Look up in your whitepaper visualizations
+                latitude: 38.4384,           // Must match camera coordinates
+                longitude: -78.8737,
+                postCount: 11,               // Look up in your whitepaper visualizations
+                robertaScore: 0.260,          // Look up in your whitepaper visualizations
                 isJMU: true
             },
             
@@ -115,10 +115,10 @@ var config = {
             
             location: {
                 name: 'JMU Location 2',
-                latitude: 38.4335,
-                longitude: -78.8715,
-                postCount: 75,
-                robertaScore: -0.15,
+                latitude: 38.4468,
+                longitude: -78.8642,
+                postCount: 189,
+                robertaScore: -0.024,
                 isJMU: true
             },
             
@@ -141,10 +141,10 @@ var config = {
             
             location: {
                 name: 'JMU Location 3',
-                latitude: 38.4390,
-                longitude: -78.8620,
-                postCount: 100,
-                robertaScore: 0.55,
+                latitude: 38.4362,
+                longitude: -78.8691,
+                postCount: 16,
+                robertaScore: 0.080,
                 isJMU: true
             },
             
@@ -166,10 +166,10 @@ var config = {
             
             location: {
                 name: 'JMU Location 3',
-                latitude: 38.4390,
-                longitude: -78.8620,
-                postCount: 100,
-                robertaScore: 0.55,
+                latitude: 38.4374,
+                longitude: -78.8722,
+                postCount: 22,
+                robertaScore:-0.036,
                 isJMU: true
             },
             
@@ -191,10 +191,10 @@ var config = {
             
             location: {
                 name: 'JMU Location 3',
-                latitude: 38.4390,
-                longitude: -78.8620,
-                postCount: 100,
-                robertaScore: 0.55,
+                latitude: 38.4479,
+                longitude: -78.8657,
+                postCount: 2,
+                robertaScore: 0.532,
                 isJMU: true
             },
             
@@ -233,10 +233,10 @@ var config = {
             
             location: {
                 name: 'Virginia Tech Location 1',
-                latitude: 35.9050,
-                longitude: -79.0470,
-                postCount: 60,
-                robertaScore: 0.30,
+                latitude: 37.2297,
+                longitude: -80.4146,
+                postCount: 120,
+                robertaScore: -0.055,
                 isJMU: false                 // UNC location
             },
             
@@ -259,10 +259,10 @@ var config = {
             
             location: {
                 name: 'Virginia Tech 2',
-                latitude: 35.9060,
-                longitude: -79.0480,
-                postCount: 85,
-                robertaScore: -0.10,
+                latitude: 37.2201,
+                longitude: -80.4180,
+                postCount: 13,
+                robertaScore: 0.056,
                 isJMU: false
             },
             
@@ -285,10 +285,10 @@ var config = {
             
             location: {
                 name: 'Virginia Tech 3',
-                latitude: 35.9070,
-                longitude: -79.0490,
-                postCount: 95,
-                robertaScore: 0.40,
+                latitude: 37.2292,
+                longitude: -80.4179,
+                postCount: 8,
+                robertaScore:-0.208,
                 isJMU: false
             },
             
@@ -310,10 +310,10 @@ var config = {
             
             location: {
                 name: 'Virginia Tech 4',
-                latitude: 35.9070,
-                longitude: -79.0490,
-                postCount: 95,
-                robertaScore: 0.40,
+                latitude: 41.7551,
+                longitude: -70.4978,
+                postCount: 4,
+                robertaScore:-0.0478,
                 isJMU: false
             },
             
@@ -335,10 +335,10 @@ var config = {
             
             location: {
                 name: 'Virginia Tech 5',
-                latitude: 35.9070,
-                longitude: -79.0490,
-                postCount: 95,
-                robertaScore: 0.40,
+                latitude: 37.2490,
+                longitude: -80.4130,
+                postCount: 6,
+                robertaScore: 0.2666,
                 isJMU: false
             },
             
@@ -348,7 +348,7 @@ var config = {
             // CHAPTER 13: Final zoom out
             id: 'conclusion',
             title: 'Conclusion: Comparing Campus Sentiment',
-            description: 'Our analysis reveals both similarities and differences in how students experience and discuss these two universities.',
+            description: 'Our analysis tells us that Virginia Tech students are closer to the Blacksburg community and use the Blacksburg downtown areas more than the James Madison students utilize the Harrisonburg community and downtown.',
             image: './images/quad.jpg',
             duration: 3000,
             
