@@ -83,7 +83,7 @@ var config = {
             camera: {
                 latitude: 38.4384,           // Replace with coordinates from CSV
                 longitude: -78.8737,
-                zoom: 16
+                zoom: 18
             },
             
             // Location data (creates the marker on map)
@@ -110,7 +110,7 @@ var config = {
             camera: {
                 latitude: 38.4468,
                 longitude: -78.8642,
-                zoom: 13
+                zoom: 16
             },
             
             location: {
@@ -136,7 +136,7 @@ var config = {
             camera: {
                 latitude: 38.4362,
                 longitude: -78.8691,
-                zoom: 17
+                zoom: 18
             },
             
             location: {
@@ -184,9 +184,9 @@ var config = {
             duration: 3000,
             
             camera: {
-                latitude: 38.4479,
-                longitude: -78.8657,
-                zoom: 17
+                latitude: 38.4478,
+                longitude: -78.8658,
+                zoom: 19
             },
             
             location: {
@@ -228,7 +228,7 @@ var config = {
             camera: {
                 latitude: 37.2297,
                 longitude: -80.4146,
-                zoom: 13
+                zoom: 16
             },
             
             location: {
@@ -305,7 +305,7 @@ var config = {
             camera: {
                 latitude: 41.7551,
                 longitude: -70.4978,
-                zoom: 17
+                zoom: 19
             },
             
             location: {
