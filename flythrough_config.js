@@ -110,7 +110,7 @@ var config = {
             camera: {
                 latitude: 38.4468,
                 longitude: -78.8642,
-                zoom: 16
+                zoom: 14
             },
             
             location: {
@@ -184,8 +184,8 @@ var config = {
             duration: 3000,
             
             camera: {
-                latitude: 38.4478,
-                longitude: -78.8658,
+                latitude: 38.4479,
+                longitude: -78.8657,
                 zoom: 19
             },
             
@@ -228,7 +228,7 @@ var config = {
             camera: {
                 latitude: 37.2297,
                 longitude: -80.4146,
-                zoom: 16
+                zoom: 14
             },
             
             location: {
