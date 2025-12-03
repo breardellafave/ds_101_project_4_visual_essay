@@ -154,7 +154,7 @@ var config = {
             // CHAPTER 6: JMU Location 4
             id: 'jmu-location-4',
             title: 'JMU Location 4: D Hall',
-            description: 'AThere are 22 posts talking about JMU D Hall, and most of them are very neutral. Lots of the posts talk about what food places used to be at the bottom of D Hall, what the old D Hall was like, and how the dining hall is just so mediocre.',
+            description: 'There are 22 posts talking about JMU D Hall, and most of them are very neutral. Lots of the posts talk about what food places used to be at the bottom of D Hall, what the old D Hall was like, and how the dining hall is just so mediocre.',
             image: 'images/chapter_9_jmu_D-hall.jpeg',
             duration: 3000,
             
@@ -209,8 +209,8 @@ var config = {
             duration: 2500,
             
             camera: {
-                latitude: 35.9049,
-                longitude: -79.0469,
+                latitude: 37.2291004454424,
+                longitude: -80.4234171223321,
                 zoom: 14
             },
             
