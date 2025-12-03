@@ -45,8 +45,8 @@ var config = {
             
             // Camera position (where to fly)
             camera: {
-                latitude: 37.2,             // Midpoint between JMU and UNC
-                longitude: -78.0,
+                latitude: 37.8349,             // Midpoint between JMU and UNC
+                longitude: -79.6500,
                 zoom: 8                     // Wide view showing both locations
             },
             
