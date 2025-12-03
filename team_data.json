@@ -22,11 +22,19 @@
       "headshot": "images/headshot_dukedog.jpg"
     },
     {
+      "name": "Ellie Fisher",
+      "major": "SMAD",
+      "role": "Text",
+      "github": "https://github.com/elliefisher18",
+      "headshot": "images/headshot_dukedog.jpg"
+    },
+    {
       "name": "Diana Mehfoud",
       "major": "Communications",
       "role": "Map Styling",
       "github": "",
       "headshot": "images/headshot_dukedog.jpg"
     }
+    
   ]
 }
